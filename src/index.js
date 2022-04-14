@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={<h1>loading///</h1>} persistor={persistor}>
-        <BrowserRouter basename="/your_repo_name/">
+        <BrowserRouter basename="/goit-react-hw-08-phonebook/">
           <App />
         </BrowserRouter>
       </PersistGate>
